@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_65" class="java.beans.XMLDecoder">
+ <object class="practica1_java.ListaCliente" id="ListaCliente0">
+  <void property="listaClientes">
+   <void method="add">
+    <object class="practica1_java.Cliente">
+     <void property="apellido">
+      <string>pepa</string>
+     </void>
+     <void property="lista">
+      <object class="practica1_java.ListaPresupuesto" id="ListaPresupuesto0">
+       <void property="listaPresupuestos">
+        <void method="add">
+         <object class="practica1_java.Presupuesto" id="Presupuesto0">
+          <void property="concepto">
+           <string>pepe</string>
+          </void>
+          <void property="estado">
+           <string>A</string>
+          </void>
+          <void property="numero_presupuesto">
+           <int>1</int>
+          </void>
+          <void property="precio_total">
+           <double>123.0</double>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="practica1_java.Presupuesto">
+          <void property="concepto">
+           <string>joyo</string>
+          </void>
+          <void property="estado">
+           <string>A</string>
+          </void>
+          <void property="numero_presupuesto">
+           <int>1</int>
+          </void>
+          <void property="precio_total">
+           <double>123.0</double>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="practica1_java.Presupuesto">
+          <void property="concepto">
+           <string>gatooo</string>
+          </void>
+          <void property="estado">
+           <string>R</string>
+          </void>
+          <void property="numero_presupuesto">
+           <int>1</int>
+          </void>
+          <void property="precio_total">
+           <double>123.0</double>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="practica1_java.Presupuesto">
+          <void property="concepto">
+           <string>prueba</string>
+          </void>
+          <void property="estado">
+           <string>P</string>
+          </void>
+          <void property="numero_presupuesto">
+           <int>2</int>
+          </void>
+          <void property="precio_total">
+           <double>12345.0</double>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object idref="Presupuesto0"/>
+        </void>
+        <void method="add">
+         <object class="practica1_java.Presupuesto">
+          <void property="concepto">
+           <string>123</string>
+          </void>
+          <void property="estado">
+           <string>R</string>
+          </void>
+          <void property="numero_presupuesto">
+           <int>345</int>
+          </void>
+          <void property="precio_total">
+           <double>1234.0</double>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="practica1_java.Presupuesto">
+          <void property="concepto">
+           <string>2</string>
+          </void>
+          <void property="estado">
+           <string>P</string>
+          </void>
+          <void property="numero_presupuesto">
+           <int>123</int>
+          </void>
+          <void property="precio_total">
+           <double>1234.0</double>
+          </void>
+         </object>
+        </void>
+       </void>
+      </object>
+     </void>
+     <void property="nombre">
+      <string>pepe</string>
+     </void>
+     <void property="telefono">
+      <string>12</string>
+     </void>
+     <void property="vip">
+      <boolean>true</boolean>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="practica1_java.Cliente">
+     <void property="apellido">
+      <string>joyo1</string>
+     </void>
+     <void property="lista">
+      <object class="practica1_java.ListaPresupuesto"/>
+     </void>
+     <void property="nombre">
+      <string>joyo</string>
+     </void>
+     <void property="telefono">
+      <string>1234</string>
+     </void>
+     <void property="vip">
+      <boolean>true</boolean>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="practica1_java.Cliente">
+     <void property="apellido">
+      <string>hola</string>
+     </void>
+     <void property="lista">
+      <object class="practica1_java.ListaPresupuesto"/>
+     </void>
+     <void property="nombre">
+      <string>hola</string>
+     </void>
+     <void property="telefono">
+      <string>123</string>
+     </void>
+     <void property="vip">
+      <boolean>true</boolean>
+     </void>
+    </object>
+   </void>
+  </void>
+ </object>
+</java>
